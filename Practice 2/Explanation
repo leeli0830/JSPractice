@@ -1,0 +1,17 @@
+- Make the following routes:
+	/
+	/join
+	/login
+	/confirm-account
+	/courses
+	/courses/new
+	/courses/mine
+	/api/documentation
+	/api/v1/buy
+	/api/v1/refund
+	/api/v2/remove
+	/api/v2/edit
+
+- Those URLs should be divided in FIVE different routes.
+- Each route needs to have a controller function imported a "controllers" file.
+- No Anonymous functions allowed. Every route should have a controller.
