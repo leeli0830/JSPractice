@@ -1,0 +1,19 @@
+- Sandbox contains a file named db.js. The file simulates DB of movies and exports the following four functions.
+
+	- getMovies returns an array of movies, console.log the result to see the shape of the object.
+	- getMovieById returns a movie object. It requires an ID as an argument and if no movie is found, it returns undefined
+	- getMovieByMinimumRating returns an array of movies, it requires a number, with this numver the function will return an array of movies with a rating equal or higher than the number.
+	- getMoveiByMinimumYear returns an array of movies, it requires a number, with this numver the function will return an array of movies with a release date equal or higher than the number.
+
+- Complete all the controllers.
+- Use PUG and MIXINS to render pages and loop over the movies list.
+- Use templates
+- You can only have 3 .pug pages. movies.pug, 404.pug, detail.pug
+- Use middlewares to add locals like siteTitle
+- / should render movies.pug ans show a list of movies.
+- /:id should render the detail of a movie. 
+- /filter should filter by year and rating.
+- The app must behave exactly like the video
+
+Implementatino: https://youtu.be/tE8QGg8aQDE
+- 

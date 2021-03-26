@@ -1,0 +1,9 @@
+extends layouts/main 
+
+block content
+  h1=result.title
+  p=result.summary
+  ul
+    each val in result.genres
+      li=val
+  
